@@ -10,4 +10,3 @@ def index(request):
         return HttpResponse("You must have POSTed something") 
     elif request.method == 'GET':
         return HttpResponse(request.method)
-q
